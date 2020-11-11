@@ -1,0 +1,13 @@
+GET http://localhost:3000/task/1
+###
+POST http://localhost:3000/task/test/3
+Content-Type: application/json
+
+{
+    "title": "Primero",
+    "description": "estubo en primer grado",
+    "done": true
+}
+
+###
+PUT http://localhost:3000/task/test/45
